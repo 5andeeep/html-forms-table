@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!!-- 3 meta tags -->
+    <meta name="description" content="This is my portfolio">
+    <meta name="keywords" content="html, table, form">
+    <meta name="author" content="Sandeep">
+    <title>Assigment</title>
+</head>
+<body>
+    <!!-- header with navbar -->
+    <header>
+        <nav>
+            <ul type="none">
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Home">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.wix.com/blog/2020/07/how-to-write-a-bio/">About Me</a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Contact_(1997_American_film)">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!!-- about my self -->
+        <section>
+            <h1 align="center">About Me</h1>
+            <p>Hi, I am Sandeep. I have done BA Programme. I have 3 years of experience from two companies. Now I am in a bootcamp where I am learning full stack web developement. It's been an amazing journey so far. I have learnt so many things. I have learnt Data Structure and Alorithms, Java programming language, SQL, Database Management System, Object Oriented Programming. I have learnt HTML, CSS, Javascript so far.</p>
+        </section>
+        <section align="center">
+            <!!-- form start from here -->
+            <h1 align="center">Contact Me</h1>
+            <form action="">
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" placeholder="Your name">
+                </div><br>
+                <div>
+                    <label for="phoneNum">Phone No.: </label>
+                    <input type="tel" name="phoneNum" max="10">
+                </div><br>
+                <div>
+                    <label for="message">Your Message: </label><br>
+                    <textarea name="message" id="msg" cols="30" rows="10" placeholder="type here.."></textarea>
+                </div>
+                <div>
+                    <label for="dateOFAppointment">Date of Appointment: </label>
+                    <input type="date" name="dateOFAppointment">
+                </div>
+                <div>
+                    <label for="contact">Contact via: </label>
+                    WhatsApp: <input type="radio" name="contact" value="WhatsApp">
+                    Phone Call: <input type="radio" name="contact" value="Call">
+                </div>
+                <div>
+                    <label for="timeSlots">Time Slots: </label><br>
+                    09 to 12: <input type="checkbox" name="Slots"><br>
+                    12 to 03: <input type="checkbox" name="Slots"><br>
+                    03 to 06: <input type="checkbox" name="Slots"><br>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+        <section>
+            <!!-- projecs table starts from here -->
+            <h1 align="center">Projects</h1>
+            <div align="center">
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Billing Management System</td>
+                            <td>It's a Billing management system of any store</td>
+                            <td> <a href="https://github.com/5andeeep/billingManagementSystem" target="_blank">checkout here</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Snake and Ladder</td>
+                            <td>It's a snake and ladder game</td>
+                            <td> <a href="https://github.com/5andeeep/SnakeAndLadderGame" target="_blank">checkout here</a></td>
+                        </tr><tr>
+                            <td>3</td>
+                            <td>Tic Tac Toe</td>
+                            <td>It's a tic tac toe game</td>
+                            <td> <a href="https://github.com/5andeeep/tictactoeGame" target="_blank">checkout here</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <!!-- footer starts from here -->
+    <footer>
+        <h1 align="center">You can also connect with me on:</h1>
+        <div align="center">
+            <a href="mailto:newsandeep03@gmail.com" target="_blank">Email Id</a>
+            <a href="www.linkedin.com/in/5andeeep" target="_blank">Linkedin</a>
+            <a href="https://github.com/5andeeep" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
